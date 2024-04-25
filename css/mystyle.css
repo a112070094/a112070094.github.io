@@ -1,10 +1,24 @@
-h1 {
-Body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
-.expedu_icon{}
-    font-family:"noto Sans TC";
-    text-transform:none;
+/* 自訂樣式選擇器 */
+.custom-h1,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.expedu_icon {
+    font-family: "Noto Sans TC", sans-serif;
+    text-transform: none;
 }
-    
-:root{
-    --bs-primary-rgb: 51, 62, 255 ;
+
+/* 設定根元素的變數 */
+:root {
+    --bs-primary-rgb: 51, 62, 255; /* 正確的寫法應該是：rgb(51, 62, 255) */
 }
